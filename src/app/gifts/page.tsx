@@ -6,7 +6,6 @@ export default function GiftsPage() {
     "Birthday Gift Hampers",
     "Diwali Collection",
     "Rakhri Collection",
-    "Children Going Items",
     "Teachers Collection",
     "Religious Photos",
     "Light Frames",
