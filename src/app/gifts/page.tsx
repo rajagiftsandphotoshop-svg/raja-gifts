@@ -2,16 +2,17 @@ import Link from "next/link";
 
 export default function GiftsPage() {
   const categories = [
+    "All Items",
     "Anniversary Gift Hampers",
     "Birthday Gift Hampers",
     "Diwali Collection",
+     "Light Frames",
+     "Phone Covers",
     "Rakhri Collection",
-    "All Items",
-    "Teachers Collection",
     "Religious Photos",
-    "Light Frames",
-    "Phone Covers",
-  ];
+    "Teachers Collection",
+    
+  ].sort();
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-pink-50 via-white to-yellow-50 p-8">
